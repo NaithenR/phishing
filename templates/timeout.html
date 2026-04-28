@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Session Timeout</title>
+    <title>Error Logging In</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
@@ -26,7 +26,7 @@
             height: calc(100vh - 100px);
         }
 
-        .timeout-box {
+        .error-box {
             background: white;
             padding: 40px;
             width: 350px;
@@ -35,24 +35,19 @@
             text-align: center;
         }
 
-        .icon {
-            font-size: 48px;
-            margin-bottom: 16px;
-        }
-
-        .timeout-box h2 {
+        .error-box h2 {
             color: #1f3c88;
             margin-bottom: 12px;
         }
 
-        .timeout-box p {
+        .error-box p {
             color: #555;
             font-size: 14px;
             line-height: 1.6;
             margin-bottom: 28px;
         }
 
-        .timeout-box a {
+        .error-box a {
             display: inline-block;
             padding: 12px 32px;
             background: #1f3c88;
@@ -62,7 +57,7 @@
             text-decoration: none;
         }
 
-        .timeout-box a:hover {
+        .error-box a:hover {
             background: #163172;
         }
 
@@ -81,12 +76,11 @@
     </div>
 
     <div class="container">
-        <div class="timeout-box">
-            <div class="icon">⏱</div>
-            <h2>Session Timed Out</h2>
-            <p><p>We were unable to verify your credentials. For your security, please sign in again to continue.</p></p>
+        <div class="error-box">
+            <h2>Error Logging In</h2>
+            <p>We were unable to verify your credentials. For your security, please sign in again to continue.</p>
             <a href="/">Sign In Again</a>
-            <p class="warning">If you did not initiate this session, please contact customer support immediately.</p>
+            <p class="warning">If this issue persists, try again later or contact customer support immediately.</p>
         </div>
     </div>
 
